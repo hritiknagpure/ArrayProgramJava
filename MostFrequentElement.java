@@ -11,7 +11,7 @@ public class Solution {
 				if(arr[i]==arr[j]) {
 					count++;
 				}
-			}
+			}                                                                               //next iteration 2 is present 3 times count is 3 and max is 6 condition false 
 			if(count>max) {                                                                      //OUTPUT : element:1 max:6
 				max=count;
 				element=arr[i];
